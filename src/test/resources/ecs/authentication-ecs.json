@@ -1,0 +1,36 @@
+{
+  "user": {
+    "id": "306343",
+    "name": "MAIDSRFG53RXYTKR"
+  },
+  "event": {
+    "created": "2020-12-28T22:41:43.395Z",
+    "ingested": "2021-06-23T23:37:20.811634100Z"
+  },
+  "message": {
+    "datacontenttype": "application/json",
+    "data": {
+      "serviceName": "crn://confluent.cloud/kafka=lkc-6k8r8q",
+      "methodName": "kafka.Authentication",
+      "resourceName": "crn://confluent.cloud/kafka=lkc-6k8r8q",
+      "authenticationInfo": {
+        "principal": "User:306343",
+        "metadata": {
+          "mechanism": "SASL_SSL/PLAIN",
+          "identifier": "MAIDSRFG53RXYTKR"
+        }
+      },
+      "result": {
+        "status": "SUCCESS",
+        "message": ""
+      }
+    },
+    "subject": "crn://confluent.cloud/kafka=lkc-6k8r8q",
+    "specversion": "1.0",
+    "id": "29ca0e51-fdcd-44bd-a393-43193432b614",
+    "source": "crn://confluent.cloud/kafka=lkc-6k8r8q",
+    "time": "2020-12-28T22:41:43.395Z",
+    "type": "io.confluent.kafka.server/authentication"
+  },
+  "@timestamp": "2021-06-23T23:37:20.764Z"
+}
